@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.home{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin: 100px;
+}
+.home h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.home p{
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.contact{
+  transition: 0.3s;
+}
+
+.contact:hover, .contact:focus{
+  color: #00abf0;
+}
